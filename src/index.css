@@ -1,0 +1,208 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: "Amiko", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+:root {
+  --main-color: #9becd8;
+  --topbar-color: #7ebfaf;
+  --hover-color-menu: #51c998;
+  --btn-color-login: #308c5a;
+  --text-color-login: #67e3a0;
+}
+
+.topbar {
+  background: var(--topbar-color);
+  padding: 10px 0;
+}
+
+span.item-topbar-text {
+  font-family: "Amiko", sans-serif;
+  font-size: 13px;
+}
+
+.wrapper-item-topbar {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+a.item-top-link {
+  color: white;
+  text-decoration: none;
+}
+
+ol,
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.list-icon-topbar {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.wrapper-item-topbar.right {
+  justify-content: end;
+  height: 100%;
+}
+
+li.item-icon-topbar a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li.item-icon-topbar {
+  margin-left: 10px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+li.item-icon-topbar-1 {
+  margin-left: 15px;
+  margin-top: 2px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.item-link-header.active {
+  border-radius: 26px;
+  border: 2px solid var(--hover-color-menu);
+}
+
+a.item-link-header {
+  padding: 9px 5px;
+  font-size: 12px;
+}
+
+a.btn-login {
+  font-size: 12px;
+  font-weight: 700;
+  background: var(--btn-color-login);
+  color: var(--text-color-login);
+  padding: 10px 6px;
+  border-radius: 12px;
+}
+
+.item-menu-header {
+  display: flex;
+  align-items: center;
+  color: black;
+  font-weight: 700;
+}
+
+.text-logo {
+  color: black;
+  margin-top: 10px;
+  font-family: "Andika New Basic", sans-serif;
+  font-weight: bold;
+}
+
+.footer .text-logo {
+  color: white;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 13.25rem;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: center;
+}
+
+.img-slider {
+  position: relative;
+}
+
+.img-slider {
+  position: relative;
+  z-index: -1;
+}
+
+.img-slider::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  z-index: 1;
+  background-color: #83bc9e78;
+}
+
+section.section-header {
+  z-index: 999;
+  position: relative;
+}
+
+input[type='date']:not(:focus):in-range::-webkit-datetime-edit-year-field,
+input[type='date']:not(:focus):in-range::-webkit-datetime-edit-month-field,
+input[type='date']:not(:focus):in-range::-webkit-datetime-edit-day-field,
+input[type='date']:not(:focus):in-range::-webkit-datetime-edit-text {
+  color: transparent;
+}
+
+/*iOS background fix */
+input[type='date']:empty {
+  background-color: #D9D9D9;
+}
+
+/* iOS fix for text alignment */
+input::-webkit-date-and-time-value {
+  text-align: left;
+  color: var(--sg-black);
+}
+
+/* iOS date-placeholder fix */
+input[type='date']:not(:focus):empty::after {
+  position: absolute;
+  color: #aaa;
+  content: attr(placeholder);
+}
+
+.page-login{
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #73A58A;
+  background-blend-mode: overlay;
+}
+
+.header-page{
+  background-position: center center;
+  background-color: repeat;
+  background-size: cover;
+  background-color: #73A58A;
+  background-blend-mode: overlay;
+}
+
+.items-siderbaradmin.active{
+  border: 1px solid #2D754E;
+  background-color: #74C99B;
+}

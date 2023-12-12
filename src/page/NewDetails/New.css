@@ -1,0 +1,17 @@
+/* New.css */
+
+.custom-card {
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.custom-button {
+    background-color: #17a2b8;
+    color: #fff;
+    border: none;
+}
+
+.custom-button:hover {
+    background-color: #117a8b;
+}

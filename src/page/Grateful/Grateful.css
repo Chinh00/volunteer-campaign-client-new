@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Roboto+Serif:opsz,wght@8..144,500&family=Roboto:wght@900&display=swap');
+
+.input_search {
+    width: 329px;
+    height: 42px;
+    border: 1px solid black;
+    padding-left: 10px;
+    float: right;
+}
+
+.search_parents {
+    position: relative;
+    width: 76%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.icon_search {
+    width: 16px;
+    height: 17px;
+    position: absolute;
+    left: 1115px;
+}
+
+.pagination {
+    width: 76%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+.pagination button {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    margin-top: -10px;
+    background-color: #FFF;
+    border: none;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.pagination-button{
+    width: 150px;
+}
+
+.pagination-button.active {
+    background-color: rgba(96, 207, 147, 1);
+  }

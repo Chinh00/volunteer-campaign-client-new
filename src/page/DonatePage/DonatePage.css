@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Roboto+Serif:opsz,wght@8..144,500&family=Roboto:wght@900&display=swap');
+
+.donate-page__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    max-width: 100%;
+}
+
+
+.donate-page h1 {
+    color: #05710f;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 30px;
+}
+
+.font_chu {
+    font-family: 'Calistoga', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Serif', serif;
+}
+
+.body {
+    height: 600px;
+    overflow: hidden;
+  }
+
+  .head_body h1{
+    font-size: 40px;
+    font-weight: 600px;
+    line-height: 52px;
+}
+.content_body_payment{
+    position: relative;
+}
+.input_name{
+    font-size: 30px;
+    width: 330px;
+    height: 35px;
+    border-bottom: 1px solid black;
+    border-top:none ;
+    border-left: none;
+    border-right: none;
+}
+.Chu_tk{
+    position: absolute;
+    left: 28%;
+    top: 50px;
+}
+
+.Tien_khuyen_gop{
+    position: absolute;
+    left: 28%;
+    top: 120px;
+}
+.Loi_nhan{
+    position: absolute;
+    left: 28%;
+    top: 190px;
+}
+
+.btn_confirm{
+    position: absolute;
+    width: 350px;
+    height: 50px;
+    font-size: 23px;
+    font-weight: 600;
+    background-color: rgba(45, 117, 78, 1);
+    color: white;
+    left: 40%;
+    top: 300px;
+    
+}
